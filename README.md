@@ -6,7 +6,7 @@
 
 ## Why This Exists
 
-Modern bot detection doesn't look for browser level hints anymore. They look for **unrealistic input**.
+Modern bot detection systems can't use traditional detection anymore. With modern emulation libraries like Playwright, they now have to look for **unrealistic input**.
 
 Playwright provides amazing speed and control, but default automation behavior is:
 - perfectly linear
