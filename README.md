@@ -1,2 +1,34 @@
 # NaturalCursor
-Library of web automation utilities built on Playwright that emulate genuine human interaction.
+
+> Human-behavior utilities for Playwright enabling low-detectability browser automation.
+
+---
+
+## Why This Exists
+
+Modern bot detection doesn't look for browser level hints anymore. They look for **unrealistic input**.
+
+Playwright provides amazing speed and control, but default automation behavior is:
+- perfectly linear
+- perfectly timed
+- perfectly inhuman
+
+This library provides **human-behavior primitives** that make automated browser interactions smoother in an efficient, scalable way.
+
+---
+
+## Features
+
+- 🖱️ Human-like mouse movement (curves, overshoot, correction)
+- ⌨️ Realistic typing (delays, typos, corrections)
+- ⏱️ Natural timing variance and idle input
+- 🧭 Cursor state tracking
+- 🎭 Drop-in Playwright compatibility
+- 🔌 Modular utilities — use only what you need
+
+---
+
+## Installation
+Coming soon. For now, you can clone the code repository. 
+```bash
+pip install NaturalCursor
