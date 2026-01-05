@@ -1,0 +1,33 @@
+{
+    "mouse":{
+
+        "position":{
+            "DEFAULT_MOUSE_Y": 67,
+            "DEFAULT_MOUSE_X": 67
+        },
+
+        "input":{
+            "MAX_CLICK_DELAY": 0.5,
+            "MIN_CLICK_DELAY": 0.1
+        }
+    },
+
+    "keyboard":{
+        "KEYBOARD_ADJACENCY": {
+            "a": "qwsz", "b": "vghn", "c": "xdfv", "d": "ersfcx", "e": "wsdr",
+            "f": "rtgdvc", "g": "tyfhvb", "h": "yugjbn", "i": "ujko", "j": "uhknm",
+            "k": "ijml", "l": "ok", "m": "njk", "n": "bhjm", "o": "iklp", "p": "ol",
+            "q": "wa", "r": "edft", "s": "wedxz", "t": "rfgy", "u": "yhji", "v": "cfgb",
+            "w": "qase", "x": "zsdc", "y": "tghu", "z": "asx",
+            "1":"2q","2":"13w","3":"24e","4":"35r","5":"46t","6":"57y","7":"68u","8":"79i","9":"80o","0":"9p",
+            " ": " "
+        }
+    },
+
+    "movement": {
+        "STEPS": 20,
+        "MAX_NON_OVERSHOOT_OFFSET": 100,
+        "MAX_OVERSHOOT_OFFSET": 100
+    }
+
+}
