@@ -14,7 +14,7 @@ page = browser.create_page("https://example.com")
 logger = Logger()
 mouse = MouseManager()
 delay = DelayManager()
-safe_keyboard = TypingManager
+safe_keyboard = TypingManager()
 
 # Enable mouse tracking to visualize movement 
 mouse.enable_cursor_tracking(page)
@@ -51,5 +51,6 @@ safe_keyboard.human_typing(page, search_text_box, "github")
 page.keyboard.press("Enter")
 
 logger.log("We're back!",1)
+
 
 page.pause()
