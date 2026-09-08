@@ -4,14 +4,14 @@
 
 ---
 
-## Why This Exists
+## Why I Made This
 
 Modern bot detection systems can't use traditional detection anymore. With modern emulation libraries like Playwright, they now have to look for **unrealistic input**.
 
 Playwright provides amazing speed and control, but default automation behavior is:
-- perfectly linear
-- perfectly timed
-- perfectly inhuman
+- linear
+- timed
+- inhuman
 
 This library provides **human-behavior primitives** that make automated browser interactions smoother in an efficient, scalable way.
 
@@ -19,12 +19,12 @@ This library provides **human-behavior primitives** that make automated browser 
 
 ## Features
 
-- 🖱️ Human-like mouse movement (curves, overshoot, correction)
-- ⌨️ Realistic typing (delays, typos, corrections)
-- ⏱️ Natural timing variance and idle input
-- 🧭 Cursor state tracking
-- 🎭 Drop-in Playwright compatibility
-- 🔌 Modular utilities — use only what you need
+- Human-like mouse movement (curves, overshoot, correction)
+- Realistic typing (delays, typos, corrections)
+- Natural timing variance and idle input
+- Cursor state tracking
+- Drop-in Playwright compatibility
+- Modular utilities — use only what you need
 
 ---
 
